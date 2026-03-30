@@ -1,0 +1,44 @@
+# Secrets / auth
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.ovpn
+*.kdbx
+
+# Tokens / credentials / local auth
+credentials/
+secrets/
+auth/
+*.token
+*.secret
+*.session
+cookies.json
+storageState.json
+playwright/.auth/
+
+# OpenClaw / agent state
+memory/*.md
+!memory/YYYY-MM-DD.example.md
+!memory/working-buffer.md
+SESSION-STATE.md
+MEMORY.md
+USER.md
+TOOLS.md
+
+# Logs / artifacts
+*.log
+logs/
+artifacts/
+tmp/
+.DS_Store
+Thumbs.db
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
